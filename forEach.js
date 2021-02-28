@@ -48,6 +48,9 @@
 // names.forEach((theirName, index) => console.log(`${index + 1}) ${theirName}`));
 
 
+
+
+
 // //PROBLEM 1 FOREACH to add numbers array
 // const numbers = [1,2,3,4,5];
 // let total = 0;
@@ -55,6 +58,10 @@
 // numbers.forEach(number => total += number);
 
 // console.log(total)
+
+
+
+
 
 
 
@@ -75,6 +82,10 @@
 
 
 
+
+
+
+
 // //PROBLEM 3 ----- FOREACH TURN NUMBER STRINGS INTO FLOATS AND ADD THEM ALL
 // const stringPrices = ['5.47', '3.12', '8.00', '5.63', '10.70'];
 // let priceTotal = 0;
@@ -89,6 +100,10 @@
 //     parseFloat(stringPrice));
 
 // console.log(priceTotal);
+
+
+
+
 
 
 // //PROBLEM 4 ----- add all letters to noel variable except for "L"
