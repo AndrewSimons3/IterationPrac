@@ -46,3 +46,12 @@
 // let sNames = [];
 
 // names.forEach((theirName, index) => console.log(`${index + 1}) ${theirName}`));
+
+
+// //forEach to add numbers array
+// const numbers = [1,2,3,4,5];
+// let total = 0;
+
+// numbers.forEach(number => total += number);
+
+// console.log(total)
