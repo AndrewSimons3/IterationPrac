@@ -48,10 +48,28 @@
 // names.forEach((theirName, index) => console.log(`${index + 1}) ${theirName}`));
 
 
-// //forEach to add numbers array
+// //PROBLEM 1 FOREACH to add numbers array
 // const numbers = [1,2,3,4,5];
 // let total = 0;
 
 // numbers.forEach(number => total += number);
 
 // console.log(total)
+
+
+
+//PROBLEM 2 FOREACH COPY FIRST 2 CHARS
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+let dayAbbreviations = [];
+
+days.forEach(day => {
+  const dayAbbreviation = day.slice(0, 2);
+  dayAbbreviations.push(dayAbbreviation);
+});
+
+console.log(dayAbbreviations)
+
+//ONE LINE SOLUTION
+
+days.forEach(day => dayAbbreviations.push(day.slice(0, 2)));
+
