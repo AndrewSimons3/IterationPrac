@@ -58,18 +58,34 @@
 
 
 
-//PROBLEM 2 FOREACH COPY FIRST 2 CHARS
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-let dayAbbreviations = [];
+// //PROBLEM 2 ------ FOREACH COPY FIRST 2 CHARS
+// const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// let dayAbbreviations = [];
 
-days.forEach(day => {
-  const dayAbbreviation = day.slice(0, 2);
-  dayAbbreviations.push(dayAbbreviation);
-});
+// days.forEach(day => {
+//   const dayAbbreviation = day.slice(0, 2);
+//   dayAbbreviations.push(dayAbbreviation);
+// });
 
-console.log(dayAbbreviations)
+// console.log(dayAbbreviations)
 
-//ONE LINE SOLUTION
+// //ONE LINE SOLUTION
 
-days.forEach(day => dayAbbreviations.push(day.slice(0, 2)));
+// days.forEach(day => dayAbbreviations.push(day.slice(0, 2)));
 
+
+
+// //PROBLEM 3 ----- FOREACH TURN NUMBER STRINGS INTO FLOATS AND ADD THEM ALL
+// const stringPrices = ['5.47', '3.12', '8.00', '5.63', '10.70'];
+// let priceTotal = 0;
+
+// stringPrices.forEach(stringPrice => {
+//   const parsedPrice = parseFloat(stringPrice);
+//   priceTotal += parsedPrice;
+// });
+
+// //TWO LINE SOLUTION
+//   stringPrices.forEach(stringPrice => priceTotal +=
+//     parseFloat(stringPrice));
+
+// console.log(priceTotal);
