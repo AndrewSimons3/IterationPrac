@@ -89,3 +89,16 @@
 //     parseFloat(stringPrice));
 
 // console.log(priceTotal);
+
+
+// //PROBLEM 4 ----- add all letters to noel variable except for "L"
+// const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+// let noel = [];
+
+// alphabet.forEach(letter => {
+//   if (letter !== 'L') {
+//     noel.push(letter);
+//   }
+// });
+
+// console.log(noel);
