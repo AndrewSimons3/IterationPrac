@@ -121,17 +121,35 @@
 
 
 
-//PROBLEM 5 - iterate over percentages and store all percentages over 50% in the array
-const percentages = [34, 67, 12, 39, 90, 82, 22, 24, 99];
-let upperRange = [];
+// //PROBLEM 5 - iterate over percentages and store all percentages over 50% in the array
+// const percentages = [34, 67, 12, 39, 90, 82, 22, 24, 99];
+// let upperRange = [];
 
-// upperRange should be: [67, 90, 82, 99]
-// Write your code below
+// // upperRange should be: [67, 90, 82, 99]
+// // Write your code below
 
-percentages.forEach(percentage => {
-  if (percentage > 50) {
-    upperRange.push(percentage)
-  }
-});
+// percentages.forEach(percentage => {
+//   if (percentage > 50) {
+//     upperRange.push(percentage)
+//   }
+// });
 
-console.log(upperRange);
+// console.log(upperRange);
+
+
+
+
+// //PROBLEM 6 ------  iterate over the colors array and store the hex colors that start with the letter F (ex. #FF0000) in the array filteredColors.
+// const colors = ['#87E2D0', '#559F4D', '#FFE0F4', '#7E7E7E', '#FF2D2D', '#F7FFEC'];
+// let filteredColors = [];
+
+// // filteredColors should be: ['#FFE0F4', '#FF2D2D', '#F7FFEC']
+// // Write your code below
+
+// colors.forEach(color => {
+//   if (color[1] === "F") {
+//     filteredColors.push(color);
+//   }
+// });
+
+// console.log(filteredColors);
