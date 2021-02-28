@@ -1,4 +1,4 @@
-const fruits = ["apple", "pear", "cherry"];
+// const fruits = ["apple", "pear", "cherry"];
 
 
 //for loop iteration
@@ -41,13 +41,8 @@ const fruits = ["apple", "pear", "cherry"];
 
 
 
-
+// //Numbering each name index
 // const names = ['Selma', 'Ted', 'Mike', 'Sam', 'Sharon', 'Marvin'];
 // let sNames = [];
-// names.forEach(name => {
-//   if (name[0] === 'S') {
-//     sNames.push(name)
-//   }
-// });
 
-// console.log(sNames);
+// names.forEach((theirName, index) => console.log(`${index + 1}) ${theirName}`));
