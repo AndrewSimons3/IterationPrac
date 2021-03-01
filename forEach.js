@@ -153,3 +153,21 @@
 // });
 
 // console.log(filteredColors);
+
+
+
+
+// //PROBLEM 7 ----- capitalize all the strings in the months array and store them in the array capitalizedMonths.
+// const months = ['january', 'february', 'march', 'april', 'may'];
+// let capitalizedMonths = [];
+
+// months.forEach(month => {
+//   let cap = month.toUpperCase();
+//   capitalizedMonths.push(cap);
+// });
+
+// // ONE LINE SOLUTION
+// months.forEach(month => capitalizedMonths.push(month.toUpperCase()));
+
+// console.log(capitalizedMonths);
+
