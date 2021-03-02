@@ -69,14 +69,21 @@
 
 
 
-const users = [
-  {name: 'Samir', age: 27},
-  {name: 'Angela', age: 33},
-  {name: 'Beatrice', age: 42},
-  {name: 'Shaniqua', age: 30},
-  {name: 'Marvin', age: 23},
-  {name: 'Sean', age: 47}
-];
+// const users = [
+//   {userName: 'Samir', age: 27},
+//   {userName: 'Angela', age: 33},
+//   {userName: 'Beatrice', age: 42},
+//   {userName: 'Shaniqua', age: 30},
+//   {userName: 'Marvin', age: 23},
+//   {userName: 'Sean', age: 47}
+// ];
+
+
+// let overThirty = users
+// .filter(userName => userName.age >= 30)
+// .map(userName => userName.userName);
+
+// console.log(overThirty)
 
 
 
